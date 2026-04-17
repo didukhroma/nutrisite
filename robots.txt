@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://didukhroma.github.io/nutrisite/sitemap.xml
