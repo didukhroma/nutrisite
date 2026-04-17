@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NutriSite</title>
+  <meta
+    name="description"
+    content="Fresh healthy meals, tailored nutrition plans, and a calm food-first landing page built from the provided Figma concept."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Marcellus&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="NutriSite home">
+        <span class="brand-mark"></span>
+        <span class="brand-copy">
+          <strong>NutriSite</strong>
+          <small>natural nutrition</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav">
+        <a href="#hero">Home</a>
+        <a href="#dishes">Menu</a>
+        <a href="#plans">About</a>
+        <a href="#nutritionist">Contact</a>
+        <a class="nav-cta" href="#footer">Review</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero reveal" id="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Healthy lifestyle starts on your plate</p>
+          <h1>Eat Healthy And Natural Food</h1>
+          <p class="lede">
+            Fresh seasonal meals, simple nutrition guidance, and calm routines
+            that make healthy eating feel practical every day.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#plans">Get started</a>
+            <a class="button button-secondary" href="#dishes">View menu</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-rings" aria-hidden="true"></div>
+          <img
+            class="hero-bowl"
+            src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=900&q=80"
+            alt="Healthy salad bowl"
+          >
+
+          <article class="floating-card review-card">
+            <span class="card-label">Top choice</span>
+            <strong>Green vitality bowl</strong>
+            <p>Avocado, citrus greens, feta, radish.</p>
+          </article>
+
+          <article class="floating-card stat-card">
+            <strong>1200+</strong>
+            <p>happy meal plans delivered</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="split-section soft-panel reveal" id="dishes">
+        <div class="section-copy">
+          <p class="eyebrow">Popular meals</p>
+          <h2>Fresh Healthy Delicious Foods</h2>
+          <p>
+            We match real ingredients with light preparation so your menu feels
+            bright, satisfying, and easy to repeat.
+          </p>
+          <ul class="feature-list">
+            <li>Seasonal bowls with plant-forward protein</li>
+            <li>Balanced macros without heavy processing</li>
+            <li>Fast delivery and customizable portions</li>
+          </ul>
+        </div>
+
+        <div class="dish-stage">
+          <img
+            class="feature-bowl main-bowl"
+            src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=900&q=80"
+            alt="Fresh vegetable bowl"
+          >
+
+          <div class="dish-stack">
+            <article class="mini-dish-card">
+              <img src="https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=320&q=80" alt="Berry bowl">
+              <div>
+                <strong>Fresh berries</strong>
+                <span>Antioxidant boost</span>
+              </div>
+            </article>
+            <article class="mini-dish-card">
+              <img src="https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?auto=format&fit=crop&w=320&q=80" alt="Fruit breakfast bowl">
+              <div>
+                <strong>Morning mix</strong>
+                <span>Fruit and yogurt</span>
+              </div>
+            </article>
+            <article class="mini-dish-card">
+              <img src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=320&q=80" alt="Salad with vegetables">
+              <div>
+                <strong>Garden lunch</strong>
+                <span>Clean and filling</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="split-section reveal" id="plans">
+        <div class="section-copy">
+          <p class="eyebrow">Guided eating plan</p>
+          <h2>Type of Diets in Nutrition Diet</h2>
+          <p>
+            Choose from simple frameworks built around your energy, routine,
+            and preferred ingredients rather than restrictive rules.
+          </p>
+          <div class="diet-tags" aria-label="Diet types">
+            <span>Low carb</span>
+            <span>High protein</span>
+            <span>Vegan</span>
+            <span>Mediterranean</span>
+          </div>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#nutritionist">Book a call</a>
+            <a class="button button-secondary" href="#benefits">Learn more</a>
+          </div>
+        </div>
+
+        <div class="ingredient-stage">
+          <img
+            class="feature-bowl"
+            src="https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?auto=format&fit=crop&w=900&q=80"
+            alt="Salad topped with cheese"
+          >
+          <span class="ingredient-pill ingredient-pill-top">Orange</span>
+          <span class="ingredient-pill ingredient-pill-left">Cucumber</span>
+          <span class="ingredient-pill ingredient-pill-bottom">Tomato</span>
+          <span class="ingredient-pill ingredient-pill-right">Capsicum</span>
+        </div>
+      </section>
+
+      <section class="benefits reveal" id="benefits">
+        <div class="section-heading">
+          <p class="eyebrow">Why it works</p>
+          <h2>Benefits of Nutrition</h2>
+          <p>Small sustainable habits create visible results in mood, energy, and recovery.</p>
+        </div>
+
+        <div class="benefit-stage">
+          <div class="benefit-heart" aria-hidden="true">
+            <span>🥑</span>
+            <span>🍓</span>
+            <span>🥕</span>
+            <span>🍋</span>
+            <span>🥬</span>
+            <span>🍅</span>
+            <span>🥝</span>
+            <span>🌽</span>
+            <span>🥭</span>
+            <span>🍇</span>
+            <span>🍎</span>
+            <span>🍐</span>
+          </div>
+
+          <article class="benefit-card benefit-card-top-left">
+            <strong>Heart health</strong>
+            <p>Better fats and fiber support a stronger baseline.</p>
+          </article>
+          <article class="benefit-card benefit-card-top-right">
+            <strong>Body balance</strong>
+            <p>Calmer blood sugar and more stable daily energy.</p>
+          </article>
+          <article class="benefit-card benefit-card-bottom-left">
+            <strong>Focus</strong>
+            <p>Cleaner meals help concentration stay consistent.</p>
+          </article>
+          <article class="benefit-card benefit-card-bottom-right">
+            <strong>Immunity</strong>
+            <p>Micronutrient-rich ingredients support recovery.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="split-section nutritionist reveal" id="nutritionist">
+        <div class="section-copy">
+          <p class="eyebrow">Meet your coach</p>
+          <h2>Your Personal Nutritionist</h2>
+          <p>
+            Practical one-on-one guidance for meal structure, shopping habits,
+            and sustainable goals built around your real schedule.
+          </p>
+          <a class="button button-primary" href="mailto:hello@nutrisite.com">Say hello</a>
+        </div>
+
+        <div class="nutritionist-stage">
+          <img
+            class="coach-image"
+            src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=900&q=80"
+            alt="Healthy ingredients and prepared meal"
+          >
+          <div class="coach-metrics">
+            <article>
+              <strong>250</strong>
+              <span>meal plans</span>
+            </article>
+            <article>
+              <strong>24</strong>
+              <span>weekly slots</span>
+            </article>
+            <article>
+              <strong>14</strong>
+              <span>years practice</span>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer reveal" id="footer">
+      <nav class="footer-links" aria-label="Footer">
+        <a href="#hero">Home</a>
+        <a href="#dishes">Menu</a>
+        <a href="#plans">About</a>
+        <a href="#nutritionist">Contact</a>
+        <a href="#benefits">Service</a>
+      </nav>
+
+      <div class="footer-branding">
+        <p>Clean eating for real life.</p>
+        <div class="footer-socials" aria-label="Social links">
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="Facebook">FB</a>
+          <a href="#" aria-label="Twitter">TW</a>
+        </div>
+      </div>
+
+      <p class="copyright">Copyright 2026. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
